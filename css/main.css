@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+
+  }
+  
+  body {
+    margin: 0;
+    font-family: Helvetica;
+    display:grid;
+    height:100vh;
+    grid-template-rows:2fr 1fr 1fr 1fr;
+    justify-content:center;
+    justify-items:center;
+    align-content:center;
+    margin: 0;
+    background-color: rgb(16,81,81);
+  }
+  .image{
+    width: 150px;
+    height: auto;
+    border-style: solid;
+      border-color: rgb(137, 208, 150);
+      border-width: thick;
+      grid-column: span 2;
+      
+      
+   
+    
+    border-radius: 50%;
+
+   
+  }
+  .fa-solid {
+      color: rgb(237, 213, 105);
+  }
+  .fa-phone-flip{
+      color: white;
+  } 
+  
+  main{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-evenly;
+      flex-direction:column;
+      background-color: rgb(255, 255, 255);
+      align-content: stretch;
+      align-items:center;
+      
+      
+  }
+  .wrapper{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+      background-color: rgb(255, 255, 255);
+
+  }
+  .four-star{
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      background-color: rgb(241, 241, 241);
+      
+      
+    
+      
+    }
+    #job{
+        display:flex;
+        align-self: center;
+        background-color:rgb(241, 241, 241); 
+         text-align:center;
+
+    }
+    .fee{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-evenly;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .contact{
+        display:flex;
+        grid-template-columns: 5fr 5fr;
+        width: 100%;
+    }
+    
+    .phone{
+        display:flex;
+        background-color:  rgb(130, 206, 143);
+        border:1px solid rgb(130, 206, 143);
+        padding: 3rem 3rem;
+        justify-content: space-between;
+        align-items:center;
+        flex-direction:row;
+        width: 100%;
+    }
+    .chat{
+        display:inline-block;
+        background-color:rgb(115, 185, 128);
+        border:1px solid rgb(115, 185, 128);
+        padding:3rem 3rem;
+        
+        
+        text-align: center;
+       width: 100%;
+    }
+    .fa-comments{
+        color:white;
+    }  .silver{
+        background-color: rgb(241, 241, 241);
+        display:grid;
+        padding:1rem 1rem 0rem 1rem;
+        grid-template-columns: 6fr 6fr;
+        grid-template-rows: 2fr;
+    }
+    
+   
